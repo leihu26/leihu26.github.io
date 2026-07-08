@@ -1,0 +1,32 @@
+html,
+body {
+  background: #eef3ff !important;
+}
+
+.masthead {
+  background: #ffffff !important;
+  border-bottom: 1px solid #dddddd;
+}
+
+.page,
+.archive {
+  background: #ffffff;
+  padding: 2em;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar {
+  background: #ffffff;
+  padding: 1.4em;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* Hide footer globally */
+.page__footer,
+.page__footer footer,
+.page__footer-follow,
+.page__footer-copyright {
+  display: none !important;
+}
