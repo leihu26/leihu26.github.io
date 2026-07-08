@@ -1,29 +1,22 @@
 html,
 body {
-  background: #eef3ff !important;
+  background: #fafafa !important;
 }
 
 .masthead {
   background: #ffffff !important;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .page,
-.archive {
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 14px;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
-}
-
+.archive,
 .sidebar {
-  background: #ffffff;
-  padding: 1.4em;
-  border-radius: 14px;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
-/* Hide footer globally */
 .page__footer,
 .page__footer footer,
 .page__footer-follow,
