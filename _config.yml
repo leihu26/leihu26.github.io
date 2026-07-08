@@ -23,7 +23,7 @@ repository               : "leihu26/leihu26.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography"
   location         : "Earth"
