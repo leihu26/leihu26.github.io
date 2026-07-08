@@ -1,4 +1,4 @@
-/* Soft light-purple AcademicPages background */
+/* Very soft light-blue AcademicPages background */
 
 /* Overall page background */
 html,
@@ -7,19 +7,27 @@ body,
 .initial-content,
 .layout--single,
 .layout--archive {
-  background: linear-gradient(180deg, #fbf8ff 0%, #f4efff 100%) !important;
+  background: linear-gradient(180deg, #fbfdff 0%, #f5f9ff 100%) !important;
 }
 
-/* Top navigation: very light purple, not pure white */
+/* Top navigation: same light-blue tone, no white blocks */
 .masthead,
+.masthead__inner-wrap,
 .greedy-nav,
+.greedy-nav a,
+.greedy-nav button,
 .greedy-nav .visible-links,
+.greedy-nav .visible-links li,
 .greedy-nav .hidden-links {
-  background: rgba(251, 248, 255, 0.96) !important;
-  border-bottom: 1px solid #e8ddf8 !important;
+  background: #fbfdff !important;
 }
 
-/* Remove all card-like effects */
+/* Subtle bottom border for the navigation bar */
+.masthead {
+  border-bottom: 1px solid #e8f0fa !important;
+}
+
+/* Remove possible card-like effects */
 .page,
 .archive,
 .page__inner-wrap,
@@ -32,13 +40,18 @@ body,
   box-shadow: none !important;
 }
 
-/* Make links match the light-purple theme */
+/* Link color: soft blue */
 a {
-  color: #7a5ccf;
+  color: #2f8fb8;
 }
 
 a:hover {
-  color: #5c3fb0;
+  color: #1f6f93;
+}
+
+/* Active navigation underline */
+.greedy-nav .visible-links a:before {
+  background: #7fb8d6 !important;
 }
 
 /* Hide AcademicPages footer globally */
