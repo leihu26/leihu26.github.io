@@ -1,31 +1,42 @@
-/* Clean AcademicPages style */
+/* Soft light-blue AcademicPages background */
 
+/* Overall background */
 html,
-body {
-  background: #ffffff !important;
+body,
+#main,
+.initial-content {
+  background: linear-gradient(180deg, #f7fbff 0%, #eef5ff 100%) !important;
 }
 
 /* Keep the top navigation clean */
-.masthead {
-  background: #ffffff !important;
-  border-bottom: 1px solid #eeeeee;
+.masthead,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: rgba(255, 255, 255, 0.96) !important;
+  border-bottom: 1px solid #e6edf5 !important;
 }
 
-/* Remove card-like effect from main content */
+/* Do NOT make content into cards */
 .page,
-.archive {
+.archive,
+.page__inner-wrap,
+.page__content,
+.sidebar,
+.sidebar__right {
   background: transparent !important;
   padding: 0 !important;
   border-radius: 0 !important;
   box-shadow: none !important;
 }
 
-/* Keep sidebar clean */
-.sidebar {
-  background: transparent !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
+/* Keep links readable */
+a {
+  color: #2f9ec8;
+}
+
+a:hover {
+  color: #1d7fa5;
 }
 
 /* Hide AcademicPages footer globally */
