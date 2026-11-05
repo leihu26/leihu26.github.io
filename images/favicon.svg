@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Lei Hu monogram</title>
-  <rect x="4" y="4" width="56" height="56" rx="14" fill="#26384a"/>
-  <path d="M15 16h7v24h11v7H15z" fill="#fbfdff"/>
-  <path d="M34 16h7v12h7V16h7v31h-7V35h-7v12h-7z" fill="#88bdb5"/>
+  <title id="title">Lei Hu</title>
+  <circle cx="32" cy="32" r="28" fill="#26384a"/>
+  <path d="M22 16h8v25h15v7H22z" fill="#ffffff"/>
 </svg>
